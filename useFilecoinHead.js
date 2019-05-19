@@ -24,7 +24,7 @@ export default function useFilecoinHead ({
       for (const cid of headCids) {
         const block = await fc.show.block(cid)
         headBlocks[cid.toString()] = block
-        newHeight = block.height
+        newHeight = Number(block.height)
       }
       setHeadBlocks(headBlocks)
       if (newHeight !== state.height) {

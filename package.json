@@ -1,6 +1,6 @@
 {
   "name": "@jimpick/use-filecoin-head",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React hook to query head blocks and chain height via Filecoin API",
   "main": "dist/useFilecoinHead.js",
   "type": "module",
