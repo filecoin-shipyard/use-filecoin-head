@@ -1,6 +1,6 @@
 {
-  "name": "@jimpick/use-filecoin-head",
-  "version": "0.0.8",
+  "name": "@filecoin-shipyard/use-filecoin-head",
+  "version": "0.0.9",
   "description": "React hook to query head blocks and chain height via Filecoin API",
   "main": "dist/useFilecoinHead.js",
   "module": "./useFilecoinHead.js",
@@ -13,9 +13,9 @@
   "author": "Jim Pick (@jimpick)",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0"
   },
   "babel": {
@@ -28,10 +28,10 @@
   "browserslist": "node 10",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimpick/use-filecoin-head.git"
+    "url": "git+https://github.com/filecoin-shipyard/use-filecoin-head.git"
   },
   "peerDependencies": {
-    "filecoin-api-client": "^0.3.0",
+    "filecoin-api-client": "^0.5.1",
     "react": "^16.8.6"
   }
 }
