@@ -1,6 +1,6 @@
 {
   "name": "@filecoin-shipyard/use-filecoin-head",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "React hook to query head blocks and chain height via Filecoin API",
   "main": "dist/useFilecoinHead.js",
   "module": "./useFilecoinHead.js",

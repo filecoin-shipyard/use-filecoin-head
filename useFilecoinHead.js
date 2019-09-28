@@ -52,7 +52,7 @@ export default function useFilecoinHead ({
     }
     doWork().then(schedule)
     return () => clearTimeout(state.timeoutId)
-  }, true)
+  }, [])
 
   return [error, headBlocks, height, updateTime, lastFlashTime]
 }
